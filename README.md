@@ -1,6 +1,6 @@
 <h1>:ghost: Halloween :jack_o_lantern:</h1>
 <br>
-<img src="" alt="mockup-halloween">
+<img src="https://github.com/eduardobetti/halloween/blob/main/mockup-halloween.png?raw=true" alt="mockup-halloween">
 <br>
 <p>Projeto Halloween apresentando no módulo Clube do Portfólio da Escola DevClub.
 Neste projeto é apresentado um modelo de landing page no FIGMA, onde utilizamos diversos estilos no CSS, com destaque para o @keyframes, para dar movimento às imagens dos personagens.
