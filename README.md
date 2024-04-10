@@ -5,7 +5,7 @@
 <p>Projeto Halloween apresentado no módulo Clube do Portfólio da Escola DevClub.
 Neste projeto é apresentado um modelo de landing page no FIGMA, onde utilizamos diversos estilos no CSS, com destaque para o @keyframes, para dar movimento às imagens dos personagens.
 Além da página da abóbora que é apresentada em aula, foi proposto o desafio de fazer também a página dos outros personagens (caveira e fantasmas).
-Além disto, para reunir as 3 páginas, fiz uma página de abertura, que possibilita acessar os 3 trabalhos, além de dar utilidade ao botão "See All Ghost", para retornar àquela página inicial.</p>
+Além disso, para reunir as 3 páginas, fiz uma página de abertura, que possibilita acessar os 3 trabalhos, além de dar utilidade ao botão "See All Ghost", para retornar àquela página inicial.</p>
 <br>
 <h2>Tecnologias utilizadas:</h2>
 
