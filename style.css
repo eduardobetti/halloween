@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+#one,
+#two,
+#three {
+    width: 33.3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#two {
+    width: 33.4vw;
+}
+
+#one {
+    background: linear-gradient(136.16deg, rgba(46, 9, 22, 0.97) 12.91%, rgba(32, 10, 43, 0.69) 87.68%);
+    ;
+}
+
+#two {
+    background: linear-gradient(130.02deg, rgba(232, 202, 251, 0.63) 0.66%, rgba(106, 79, 182, 0.46) 83.32%);
+}
+
+#three {
+    background: linear-gradient(136.16deg, rgba(91, 135, 75, 0.97) 12.91%, rgba(12, 55, 32, 0.87) 87.68%);
+    ;
+}
+
+img {
+    width: 32vw;
+    animation: moveImage 2s infinite alternate ease-in-out;
+}
+
+.logo {
+    width: 11vw;
+    height: 5vh;
+    position: absolute;
+    top: 0;
+    margin-top: 5vh;
+}
+
+.monster {
+    cursor: pointer;
+    height: 100vh;
+}
+
+.pumpkin {
+    padding-bottom: 25vh;
+}
+
+@keyframes moveImage {
+    from {
+      transform: translate(0%, 2%);
+    }
+  
+    to {
+      transform: translate(0%, -2%);
+    }
+  }
+
+@media (orientation: portrait) {
+
+    body {
+        flex-direction: column;
+    }
+
+    #one,
+    #two,
+    #three {
+        width: 100vw;
+        height: 33.4vh;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .logo {
+        position: unset;
+        margin-top: unset;
+        width: 25vw;
+    }
+
+    .monster {
+        width: 50vw;
+        height: 30vh;
+    }
+
+    .pumpkin {
+        padding-bottom: unset;
+    }
+}
